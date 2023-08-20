@@ -54,7 +54,7 @@ const Dashboard = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       <div className="container py-8">
-        <h2 className="greetings text-5xl font-bold text-black">Dashboard</h2>
+        <h2 className="greetings text-4xl font-bold ml-4  text-black">Dashboard</h2>
       </div>
       <div className="w-full all-blogs-section flex flex-col justify-center items-center">
         <div className="blog-posting container flex  py-6">
@@ -63,38 +63,39 @@ const Dashboard = () => {
               <input
                 type="email"
                 className="w-full border rounded p-2 mb-4"
-                placeholder="Your Email"
+                placeholder="Enter Your Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <input
                 type="text"
                 className="w-full border rounded p-2 mb-4"
-                placeholder="Blog Title"
+                placeholder="ADD Blog Title"
                 value={blogTitle}
                 onChange={(e) => setBlogTitle(e.target.value)}
               />
               <textarea
                 className="w-full border rounded p-2 mb-4"
                 rows="4"
-                placeholder="Type Your Blog Content"
+                placeholder="Write Your Blog Content"
                 value={blogContent}
                 onChange={(e) => setBlogContent(e.target.value)}
               />
               <button
                 type="submit"
-                className="bg-purple-600 text-white px-4 py-2 rounded"
-                style={{ backgroundColor: "#7749F8" }}
+                className="bg-blue-600 text-white rounded-full text-1xl font-semibold px-4 py-2 "
+                style={{ backgroundColor: "#4285F4" }}
               >
-                Publish Your Blog
+                Add Your Blog
               </button>
             </form>
           </div>
         </div>
         <div className="container flex gap-8 py-4">
           <div className="blogs w-3/4 flex flex-col gap-3">
-            <h3 className="blog-heading text-3xl font-semibold">My Blogs</h3>
+            <h3 className="text-4xl py-4 font-semibold ml-5">My Blogs</h3>
             {posts.map((post, index) => (
+
               <Blogs
                 key={index}
                 imgURL={post.imgURL}

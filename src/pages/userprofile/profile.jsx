@@ -16,14 +16,14 @@ const profile = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       <div className="container py-8">
-        <h2 className="greetings text-5xl font-bold text-black">
-          Back to all blogs
+        <h2 className="greetings text-5xl font-bold text-sky-400 ">
+         . Back to all blogs
         </h2>
       </div>
       <div className="w-full all-blogs-section flex justify-center items-center">
         <div className="container flex gap-8 py-4">
           <div className="blogs w-3/4 flex flex-col gap-3">
-            <h3 className="blog-heading text-3xl font-semibold">All Blogs</h3>
+            <h3 className="blog-heading text-3xl font-semibold ml-5 py-4 ">All Blogs</h3>
             {posts.map((post, index) => (
               <Blogs
                 key={index}
