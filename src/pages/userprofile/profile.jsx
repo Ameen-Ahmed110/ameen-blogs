@@ -17,13 +17,13 @@ const profile = () => {
     <div className="w-full flex flex-col justify-center items-center">
       <div className="container py-8">
         <h2 className="greetings text-5xl font-bold text-sky-400 ">
-         . Back to all blogs
+         ! Back to all blogs
         </h2>
       </div>
       <div className="w-full all-blogs-section flex justify-center items-center">
         <div className="container flex gap-8 py-4">
-          <div className="blogs w-3/4 flex flex-col gap-3">
-            <h3 className="blog-heading text-3xl font-semibold ml-5 py-4 ">All Blogs</h3>
+          <div className="blogs w-3/5 flex flex-col gap-3">
+            <h3 className="blog-heading text-3xl font-semibold ml-5 py-4 ">Every Blog</h3>
             {posts.map((post, index) => (
               <Blogs
                 key={index}
@@ -38,11 +38,11 @@ const profile = () => {
             <p className="author-email text-xl font-semibold decoration-1">
               elon@openai.com
             </p>
-            <h3 className="user-name">Elon Musk</h3>
+            <h3 className="user-name">Imran khan</h3>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg"
-              className="user_image"
-              alt="Ellon Musk"
+              src="https://images.unsplash.com/photo-1600812227435-d194ea36937d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+              className="user_image "
+              alt="bilgades"
             />
           </div>
         </div>

@@ -12,13 +12,13 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 :root {
   --bg-color: #4286F4;
   --bg-section: #dee0e1d1;
-  --border-color: #dee2e6;
+  --border-color: #dee2e6e6;
   --blog-title: #212529;
   --blog-para-color: #6c757d;
 }
@@ -71,14 +71,14 @@ body {
 }
 .blog-title {
   color: var(--blog-title);
-  font-size: 24px;
+  font-size: 28px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: normal;
 }
 .author-name {
   color: var(--blog-para-color);
-  font-size: 16px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -87,7 +87,7 @@ body {
   color: var(--bg-color);
 }
 .user-name {
-  font-size: 40px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -95,17 +95,19 @@ body {
   color: var(--bg-color);
 }
 .user_image {
-  width: 300px;
-  height: 293px;
+  width: 400px;
+  height: 393px;
   flex-shrink: 0;
+  margin-left: 20px;
   border-radius: 19px;
   border: 1px solid var(--gray-300, #dee2e6);
 }
 .user-profile-img{
-  width: 300.19px;
+width: 300.19px;
 height: 300px;
 flex-shrink: 0;
 border-radius: 30px;
 box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
 margin-bottom: 5%;
+margin-left: 20px;
 }

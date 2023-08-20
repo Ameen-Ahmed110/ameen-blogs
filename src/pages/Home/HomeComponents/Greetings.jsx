@@ -4,7 +4,7 @@ const Greetings = () => {
   return (
     <div className="container py-8">
       <h2 className="greetings text-6xl font-semibold text-black">
-        Good Morning Readers...
+      Greetings,readers of the morn...
       </h2>
     </div>
   );

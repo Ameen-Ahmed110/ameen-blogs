@@ -3,29 +3,21 @@ import { useState } from "react";
 const postsData = [
   {
     imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTknu5FGDIKCuT5-3TIyfM5feSjfXY3QzsImg&usqp=CAU",
+      "https://images.unsplash.com/photo-1600812227435-d194ea36937d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
     blogtitle: "Introducing Whisper",
-    author: "Elon Musk-August 19th, 2023",
-    blogContent: `Whisper is an automatic speech recognition (ASR) system trained on
-              680,800 hours of multilingual and multitask supervised data collected
-              from the web. We show that the use of such a large and diverse dataset
-              leads to improved robustness to accents, background noise and
-              technical language. Moreover, it enables transcription in multiple
-              languages, as well as translation from those languages into English.
-              We are open-sourcing models and inference code to serve as a
-              foundation for building useful applications and for further research
-              on robust speech processing.`,
+    author: "Imran khan-August 19th, 2023",
+    blogContent: `Introducing Whisper, OpenAI's cutting-edge speech synthesis technology. Whisper goes beyond traditional text-to-speech, producing remarkably natural and expressive AI-generated voices. Trained on diverse datasets, it captures emotion, accents, and context, bridging the gap between human and AI communication. Whisper's versatility and authenticity make it a game-changer for audiobooks, virtual assistants, and more, enhancing user experience and engagement in voice interactions.`,
   },
   {
     imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTknu5FGDIKCuT5-3TIyfM5feSjfXY3QzsImg&usqp=CAU",
+      "https://images.unsplash.com/photo-1600812227435-d194ea36937d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
     blogtitle: "An Action Button Could Be Coming to the Iphone 15",
     author: "Inzimam MAlik-August 19th, 2023",
     blogContent: `The iPhone 15 is rumored to introduce an "action button," a dedicated physical button with customizable functions. This button could offer quicker access to apps, shortcuts, voice assistants, or modes. While details are yet to be confirmed by Apple, this potential addition aligns with their focus on improving user experience and device interactiong.`,
   },
   {
     imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTknu5FGDIKCuT5-3TIyfM5feSjfXY3QzsImg&usqp=CAU",
+      "https://images.unsplash.com/photo-1600812227435-d194ea36937d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
     blogtitle: "Introducing ChatGPt",
     author: "Ishaq-August 19th, 2023",
     blogContent: `Allow me to introduce ChatGPT, an advanced conversational AI powered by the GPT-3.5 architecture, created by OpenAI. This innovative language model has been trained on a wide range of text sources up until September 2021. ChatGPT is designed to understand and generate human-like text, making it capable of engaging in natural and coherent conversations on various topics. Its abilities span from answering questions and offering explanations to assisting with writing, brainstorming, and more. With its extensive knowledge base and language skills, ChatGPT serves as a versatile tool for diverse communication needs.

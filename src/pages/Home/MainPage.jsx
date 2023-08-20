@@ -20,7 +20,7 @@ const MainPage = () => {
       <div className="w-full all-blogs-section flex justify-center items-center">
         <div className="container flex flex-col gap-4 py-5">
           <h3 className="blog-heading text-4xl ml-9 py-5 font-bold">All Blogs!</h3>
-          <div className="blogs w-3/4">
+          <div className="blogs w-2/3">
             {posts.map((post, index) => (
               <Blogs
                 key={index}
